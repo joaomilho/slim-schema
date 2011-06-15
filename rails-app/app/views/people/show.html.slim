@@ -1,0 +1,9 @@
+p#notice = notice
+
+- itemscope @person do
+ h1@name
+ p@bio
+ span@age
+
+= link_to 'Edit', edit_person_path(@person)
+= link_to 'Back', people_path
